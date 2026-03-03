@@ -47,6 +47,3 @@ Throughout these projects, I developed a robust workflow for handling data lifec
 * **Insight Generation:** Creating interactive dashboards in Power BI and Tableau to communicate complex findings to stakeholders.
 
 ---
-image_16917e.png
-
- database querying and schema design.
