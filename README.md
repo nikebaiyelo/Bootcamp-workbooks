@@ -64,5 +64,6 @@ Throughout these projects, I developed a robust workflow for handling data lifec
 * **Aggregation & Summarization:** Leveraging SQL `GROUP BY` statements and Excel Pivot Tables to distill high-level metrics.
 * **Exploratory Data Analysis (EDA):** Utilizing Python and Tableau to identify distributions, outliers, and correlations.
 * **Insight Generation:** Creating interactive dashboards in Power BI and Tableau to communicate complex findings to stakeholders.
+![Week 2 Sales Chart](Week2_sales%20chart.png)
 
 ---
