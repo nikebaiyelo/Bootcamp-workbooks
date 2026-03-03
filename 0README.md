@@ -28,8 +28,6 @@ Throughout these projects, I developed a robust workflow for handling data lifec
 * **Azure:** Cloud-based data storage and management.
 # 📊 Adventure Works Sales Dashboard
 
-![Adventure Works Logo](./images/adventure-works-logo.png)
-
 ---
 
 ## 📈 Sales & Profit Margin Overview
@@ -37,8 +35,7 @@ Throughout these projects, I developed a robust workflow for handling data lifec
 **Period:** July 2019 – June 2020  
 **Data Refresh:** 5 minutes ago  
 
-![Sales and Profit Margin Chart](./images/sales-profit-margin.png)
-
+![Week 2 Sales Chart](https://raw.githubusercontent.com/nikebaiyelo/Bootcamp-workbooks/main/image/Week2_sales%20chart.png)
 ---
 
 ## 💰 Sales Summary
