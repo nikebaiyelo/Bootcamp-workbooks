@@ -1,3 +1,4 @@
+![Adventure Works Logo](./images/adventure-works-logo.png)
 # Bootcamp-workbooks
 # 🚀 Data Analytics Portfolio: 6-Week Intensive
 
@@ -27,8 +28,6 @@ Throughout these projects, I developed a robust workflow for handling data lifec
 * **Python:** Automated data cleaning and statistical analysis.
 * **Azure:** Cloud-based data storage and management.
 # 📊 Adventure Works Sales Dashboard
-
-![Adventure Works Logo](./images/adventure-works-logo.png)
 
 ---
 
