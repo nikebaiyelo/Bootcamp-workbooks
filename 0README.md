@@ -1,4 +1,5 @@
-![Adventure Works Logo](./images/adventure-works-logo.png)
+![Week 1 Cohort Image](https://raw.githubusercontent.com/nikebaiyelo/Bootcamp-workbooks/50bd1980caa25941868749034106f2f5b6d41de1/image/week1colchtimage.png)
+
 # Bootcamp-workbooks
 # 🚀 Data Analytics Portfolio: 6-Week Intensive
 
