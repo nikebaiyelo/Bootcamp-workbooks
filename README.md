@@ -26,6 +26,38 @@ Throughout these projects, I developed a robust workflow for handling data lifec
 * **Tableau:** Geospatial analysis and storytelling.
 * **Python:** Automated data cleaning and statistical analysis.
 * **Azure:** Cloud-based data storage and management.
+# 📊 Adventure Works Sales Dashboard
+
+![Adventure Works Logo](./images/adventure-works-logo.png)
+
+---
+
+## 📈 Sales & Profit Margin Overview
+
+**Period:** July 2019 – June 2020  
+**Data Refresh:** 5 minutes ago  
+
+![Sales and Profit Margin Chart](./images/sales-profit-margin.png)
+
+---
+
+## 💰 Sales Summary
+
+### Sales YTD (FY2020)
+
+# **$33,139,748**
+
+---
+
+## 📌 Metrics Explained
+
+- 🔵 **Sales** — Monthly revenue in USD
+- 📉 **Profit Margin** — Monthly profit margin percentage
+- 📆 Fiscal Year 2020 reporting
+
+---
+
+## 🗂 Project Structure
 
 
 * **Data Cleaning & Preprocessing:** Handling null values, data type conversion, and "dirty" data strings using Python (Pandas) and SQL.
