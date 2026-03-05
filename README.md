@@ -1,7 +1,6 @@
 
 # Bootcamp-workbooks
 # 🚀 Data Analytics Portfolio: 6-Week Intensive
-
 This repository documents my journey through an intensive data analytics program, completing six distinct projects that bridge the gap between raw data and actionable insights.
 ---
 # 📊 Week 1 Analysis Projects  
@@ -554,6 +553,29 @@ ORDER BY avg_population DESC;
 
 ---
 
+# **$33,139,748**
+
+---
+
+## 📌 Metrics Explained
+
+- 🔵 **Sales** — Monthly revenue in USD
+- 📉 **Profit Margin** — Monthly profit margin percentage
+- 📆 Fiscal Year 2020 reporting
+
+---
+
+## 🗂 Project Structure
+
+
+* **Data Cleaning & Preprocessing:** Handling null values, data type conversion, and "dirty" data strings using Python (Pandas) and SQL.
+* **Aggregation & Summarization:** Leveraging SQL `GROUP BY` statements and Excel Pivot Tables to distill high-level metrics.
+* **Exploratory Data Analysis (EDA):** Utilizing Python and Tableau to identify distributions, outliers, and correlations.
+* **Insight Generation:** Creating interactive dashboards in Power BI and Tableau to communicate complex findings to stakeholders.
+![Week 2 Sales Chart](Week2_sales%20chart.png)
+
+---
+
 # Week 5 Data Technician Workbook
 
 This repository contains resources and notes for **Week 5** of the Data Technician course, focusing on cloud computing, alternative infrastructure, and Azure data services.
@@ -672,25 +694,3 @@ SELECT country.Name AS Country, city.Name AS CapitalCity, city.Population
 FROM country
 JOIN city ON country.Capital = city.ID
 ORDER BY city.Population DESC;
-
-# **$33,139,748**
-
----
-
-## 📌 Metrics Explained
-
-- 🔵 **Sales** — Monthly revenue in USD
-- 📉 **Profit Margin** — Monthly profit margin percentage
-- 📆 Fiscal Year 2020 reporting
-
----
-
-## 🗂 Project Structure
-
-
-* **Data Cleaning & Preprocessing:** Handling null values, data type conversion, and "dirty" data strings using Python (Pandas) and SQL.
-* **Aggregation & Summarization:** Leveraging SQL `GROUP BY` statements and Excel Pivot Tables to distill high-level metrics.
-* **Exploratory Data Analysis (EDA):** Utilizing Python and Tableau to identify distributions, outliers, and correlations.
-* **Insight Generation:** Creating interactive dashboards in Power BI and Tableau to communicate complex findings to stakeholders.
-![Week 2 Sales Chart](Week2_sales%20chart.png)
-
