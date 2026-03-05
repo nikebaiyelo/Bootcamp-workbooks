@@ -376,8 +376,12 @@ These concepts ensure data remains **structured, organised, and reliable** acros
 # 🗂 Relational Database Model
 
 The following Entity Relationship Diagram illustrates a simple **sales database structure**.
+## 📊 Week 3 Highlight: Database Structure ERD
 
-![Database ERD](images/Week3DB.png)
+![Week 3 Database ERD](image/Week3DB.png)
+
+This Entity Relationship Diagram (ERD) illustrates the core database structure used in Week 3, depicting the relationships between the **customer_information**, **inventory**, and **sales** tables.  
+It highlights how primary and foreign keys link tables, enabling complex queries and efficient data management in relational databases.
 
 ### 📊 Database Structure Highlights
 
