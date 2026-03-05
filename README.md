@@ -331,6 +331,229 @@ Throughout these projects, I developed a robust workflow for handling data lifec
 ## 💰 Sales Summary
 
 ### Sales YTD (FY2020)
+# 🗄 Week 3 – Database Concepts & SQL
+
+## 🎯 Overview
+Week 3 focused on understanding **database structure and relational data analysis using SQL**.  
+The work combined **database theory, relational modelling, and practical SQL querying** to analyse structured datasets.
+
+Key areas covered:
+
+- Primary & Foreign Keys
+- Database relationships
+- Relational vs Non-Relational databases
+- SQL JOIN operations
+- Practical SQL querying using a **world database**
+
+---
+
+# 🧠 Database Fundamentals
+
+This section explored the core concepts that underpin relational databases.
+
+### Key Concepts
+
+**Primary Keys**
+- Uniquely identify each record within a table
+- Prevent duplicate entries
+- Provide the basis for table relationships
+
+**Foreign Keys**
+- Link related tables together
+- Reference a primary key from another table
+- Enable relational database structures
+
+### Relationship Types Studied
+
+- **One-to-One** – one record relates to exactly one record
+- **One-to-Many** – one record relates to multiple records
+- **Many-to-Many** – records in both tables relate to multiple records
+
+These concepts ensure data remains **structured, organised, and reliable** across database systems.
+
+---
+
+# 🗂 Relational Database Model
+
+The following Entity Relationship Diagram illustrates a simple **sales database structure**.
+
+![Database ERD](images/Week3DB.png)
+
+### 📊 Database Structure Highlights
+
+The database is organised into **three relational tables**:
+
+| Table | Purpose |
+|------|--------|
+| **customer_information** | Stores customer identity and contact details |
+| **inventory** | Stores product information and stock levels |
+| **sales** | Records sales transactions linking customers and products |
+
+---
+
+### 🔑 Table Key Structure
+
+**Customer Table**
+
+Primary Key:
+
+customer_id
+
+
+Fields include:
+
+- full_name
+- email
+- phone_number
+- loyalty_points
+
+This table stores **customer profile information** used to track purchases and loyalty rewards.
+
+---
+
+**Inventory Table**
+
+Primary Key:
+
+product_id
+
+
+Fields include:
+
+- product_name
+- category_id
+- price
+- stock_count
+
+This table manages **product catalog information and inventory levels**.
+
+---
+
+**Sales Table**
+
+Primary Key:
+
+sales_id
+
+
+Foreign Keys:
+
+
+customer_id → customer_information
+product_id → inventory
+
+
+Fields include:
+
+- sales_date
+- quantity_sold
+- amount
+
+The **sales table acts as the central transactional table**, linking customers to purchased products.
+
+---
+
+### 🔗 Relationship Highlights
+
+The ERD demonstrates two key **one-to-many relationships**:
+
+| Relationship | Description |
+|---|---|
+| Customer → Sales | One customer can have multiple purchases |
+| Product → Sales | One product can appear in many sales records |
+
+This design enables analysts to answer questions such as:
+
+- Which customers generate the most revenue?
+- Which products sell the most?
+- How does inventory affect sales performance?
+
+---
+
+# 🔄 SQL JOIN Types
+
+Week 3 also focused on understanding how **multiple tables can be combined using SQL JOIN operations**.
+
+JOIN types studied:
+
+- **INNER JOIN** – returns matching records from both tables
+- **LEFT JOIN** – returns all records from the left table
+- **RIGHT JOIN** – returns all records from the right table
+- **FULL JOIN** – returns all records from both tables
+- **CROSS JOIN** – returns all possible combinations
+- **SELF JOIN** – joins a table with itself
+
+Understanding these joins enables analysts to **combine related datasets and extract meaningful insights**.
+
+---
+
+# 🗃 SQL Practical – World Database
+
+Practical SQL exercises were completed using a **sample world database**.
+
+### Queries Performed
+
+- Counting cities in the **USA**
+- Identifying countries with the **highest and lowest life expectancy**
+- Filtering cities by **name patterns**
+- Sorting and limiting query results
+- Calculating **average population by country**
+- Comparing **capital city populations**
+
+These exercises strengthened **real-world SQL querying and analytical skills**.
+
+---
+
+# 📸 SQL Query Output
+
+Example query outputs were generated during the analysis to validate results and demonstrate SQL functionality.
+
+*Example outputs include filtered datasets, aggregated calculations, and ranked results.*
+
+---
+
+# 🛠 Skills Demonstrated
+
+- Relational Database Design
+- Entity Relationship Diagrams (ERD)
+- SQL Query Writing
+- SQL JOIN Operations
+- Data Analysis using relational databases
+- Data modelling and schema design
+
+---
+
+# 💻 Example SQL Queries Used in Week 3
+
+```sql
+-- Count number of cities in the USA
+SELECT COUNT(*) AS city_count
+FROM city
+WHERE countrycode = 'USA';
+
+-- Find countries with highest and lowest life expectancy
+SELECT Name, LifeExpectancy
+FROM country
+ORDER BY LifeExpectancy DESC
+LIMIT 5;
+
+-- Filter cities starting with 'San'
+SELECT Name, CountryCode, Population
+FROM city
+WHERE Name LIKE 'San%'
+ORDER BY Population DESC;
+
+-- Calculate average population by country
+SELECT countrycode, AVG(population) AS avg_population
+FROM city
+GROUP BY countrycode
+ORDER BY avg_population DESC;
+
+-- Compare population of capital cities
+SELECT country.Name AS Country, city.Name AS CapitalCity, city.Population
+FROM country
+JOIN city ON country.Capital = city.ID
+ORDER BY city.Population DESC;
 
 # **$33,139,748**
 
