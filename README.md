@@ -201,27 +201,6 @@ Based on the analysis:
 These strategies could help **increase revenue and improve operational efficiency**.
 
 ---
-
-# 📂 Repository Structure
-
-```
-data-technician-project
-│
-├── data
-│   ├── retail_sales_dataset.xlsx
-│   ├── bike_sales_dataset.xlsx
-│
-├── image
-│   └── week1colchtimage.png
-│
-├── workbook
-│   └── Data_Technician_Workbook.docx
-│
-└── README.md
-```
-
----
-
 # 📚 Learning Outcomes
 
 This project demonstrates the ability to:
