@@ -690,4 +690,4 @@ Visual outputs from Power BI dashboards and Azure lab exercises, demonstrating p
 - Supports insights into customer behavior and business trends.
 - Reinforces hands-on experience with cloud-based data processing.
 
-![Week 5 Power BI & Azure Lab Output](image/week5PBirelnimage.png)
+![Week 5 Power BI & Azure Lab Output](image/week5PBirelnimage.png).
