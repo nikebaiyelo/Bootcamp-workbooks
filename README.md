@@ -729,7 +729,7 @@ This week strengthened understanding of **scalable cloud data architectures**, *
 ---
 
 ## 📚 Overview
-This workbook contains practical Python exercises completed during **Week 6 of the Data Technician course**.  
+This workbook contains practical Python exercises completed during **Week 6 of the Data Technician course** using colab.  
 The activities focus on **data exploration, manipulation, aggregation, and visualisation** using Python libraries such as **Pandas, seaborn, NumPy** and **Matplotlib**.
 
 The exercises provide hands-on experience working with datasets, cleaning and analysing data programmatically.
@@ -861,10 +861,6 @@ data.to_csv("processed_data.csv", index=False)
 ```
 
 ---
-
-## 📊 Heatmap Visualisation
-
-The following heatmap was generated using Python and Matplotlib to visualise patterns in the dataset.
 ## 📊 Heatmap Visualisation
 
 The following heatmap was generated using **Python**, **Seaborn**, and **Matplotlib** to visualise relationships in a dataset.
