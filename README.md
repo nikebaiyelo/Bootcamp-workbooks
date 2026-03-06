@@ -713,3 +713,6 @@ SELECT country.Name AS Country, city.Name AS CapitalCity, city.Population
 FROM country
 JOIN city ON country.Capital = city.ID
 ORDER BY city.Population DESC;
+
+---
+---
