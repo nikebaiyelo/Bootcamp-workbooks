@@ -730,9 +730,9 @@ This week strengthened understanding of **scalable cloud data architectures**, *
 
 ## 📚 Overview
 This workbook contains practical Python exercises completed during **Week 6 of the Data Technician course**.  
-The activities focus on **data exploration, manipulation, aggregation, and visualisation** using Python libraries such as **Pandas** and **Matplotlib**.
+The activities focus on **data exploration, manipulation, aggregation, and visualisation** using Python libraries such as **Pandas, seaborn, NumPy** and **Matplotlib**.
 
-The exercises provide hands-on experience working with datasets and analysing data programmatically.
+The exercises provide hands-on experience working with datasets, cleaning and analysing data programmatically.
 
 ---
 
@@ -744,8 +744,6 @@ The exercises provide hands-on experience working with datasets and analysing da
 - [Exercise 5: Advanced Operations](#exercise-5-advanced-operations)
 - [Exercise 6: Exporting Data](#exercise-6-exporting-data)
 - [Exercise 7: Data Visualisation (Optional)](#exercise-7-data-visualisation-optional)
-- [Technologies Used](#technologies-used)
-- [Learning Outcomes](#learning-outcomes)
 
 ---
 
@@ -866,7 +864,7 @@ data.to_csv("processed_data.csv", index=False)
 
 # Exercise 7: Data Visualisation (Optional)
 
-If the exercises are completed early, results can be visualised using **Matplotlib**.
+If the exercises are completed, results can be visualised using **Matplotlib**.
 
 Example:
 
@@ -893,19 +891,5 @@ plt.show()
 
 ---
 
-# 🎯 Learning Outcomes
-
-After completing this workbook, learners should be able to:
-
-- Load and explore datasets using Python
-- Perform indexing and slicing operations
-- Manipulate and transform data
-- Apply aggregation and grouping techniques
-- Export processed datasets
-- Create simple visualisations using Matplotlib
 
 ---
-
-# 📌 Notes
-
-This workbook forms part of the **Data Technician training programme**, helping develop practical skills in **data analysis and visualisation using Python**.
