@@ -861,16 +861,6 @@ data.to_csv("processed_data.csv", index=False)
 ```
 
 ---
-## 📊 Heatmap Visualisation
-
-The following heatmap was generated using **Python**, **Seaborn**, and **Matplotlib** to visualise relationships in a dataset.
-
-### 🖼 Heatmap Output
-
-![Week 6 Heatmap](image/Week6heatmap.png)
-
----
-
 ### 🐍 Python Code Used
 
 ```python
@@ -897,8 +887,11 @@ plt.show()
 - **Matplotlib (`plt`)** is used to display the chart.
 - `annot=True` displays the numerical values in each cell.
 - `cmap="coolwarm"` applies a colour gradient to the heatmap.
+## 📊 Heatmap Visualisation
 
-This visualisation helps identify **patterns, correlations, or intensity differences** within the dataset.
+The following heatmap was generated using **Python**, **Seaborn**, and **Matplotlib** to visualise relationships in a dataset.
+
+**patterns, correlations, or intensity differences** within the dataset are identified.
 
 ![Week 6 Heatmap](image/Week6heatmap.png)
 ```
