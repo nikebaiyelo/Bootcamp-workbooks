@@ -374,6 +374,30 @@ These concepts ensure data remains **structured, organised, and reliable** acros
 # 🗂 Relational Database Model
 
 The following Entity Relationship Diagram illustrates a simple **sales database structure**.
+
+# **$33,139,748**
+
+---
+
+## 📌 Metrics Explained
+
+- 🔵 **Sales** — Monthly revenue in USD
+- 📉 **Profit Margin** — Monthly profit margin percentage
+- 📆 Fiscal Year 2020 reporting
+
+---
+
+## 🗂 Project Structure
+
+
+* **Data Cleaning & Preprocessing:** Handling null values, data type conversion, and "dirty" data strings using Python (Pandas) and SQL.
+* **Aggregation & Summarization:** Leveraging SQL `GROUP BY` statements and Excel Pivot Tables to distill high-level metrics.
+* **Exploratory Data Analysis (EDA):** Utilizing Python and Tableau to identify distributions, outliers, and correlations.
+* **Insight Generation:** Creating interactive dashboards in Power BI and Tableau to communicate complex findings to stakeholders.
+![Week 2 Sales Chart](Week2_sales%20chart.png)
+
+---
+
 ## 📊 Week 3 Highlight: Database Structure ERD
 
 ![Week 3 Database ERD](image/Week3DB.png)
@@ -553,26 +577,6 @@ ORDER BY avg_population DESC;
 
 ---
 
-# **$33,139,748**
-
----
-
-## 📌 Metrics Explained
-
-- 🔵 **Sales** — Monthly revenue in USD
-- 📉 **Profit Margin** — Monthly profit margin percentage
-- 📆 Fiscal Year 2020 reporting
-
----
-
-## 🗂 Project Structure
-
-
-* **Data Cleaning & Preprocessing:** Handling null values, data type conversion, and "dirty" data strings using Python (Pandas) and SQL.
-* **Aggregation & Summarization:** Leveraging SQL `GROUP BY` statements and Excel Pivot Tables to distill high-level metrics.
-* **Exploratory Data Analysis (EDA):** Utilizing Python and Tableau to identify distributions, outliers, and correlations.
-* **Insight Generation:** Creating interactive dashboards in Power BI and Tableau to communicate complex findings to stakeholders.
-![Week 2 Sales Chart](Week2_sales%20chart.png)
 
 ---
 
