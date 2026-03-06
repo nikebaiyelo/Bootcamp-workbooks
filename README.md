@@ -349,8 +349,6 @@ Throughout these projects, I developed a robust workflow for handling data lifec
 * **Insight Generation:** Creating interactive dashboards in Power BI and Tableau to communicate complex findings to stakeholders.
 
 ---
-
-![Week 2 Sales Chart](Week2_sales%20chart.png)
 ---
 # Week 5 – Data Technician Workbook
 
