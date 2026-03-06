@@ -576,127 +576,146 @@ FROM city
 GROUP BY countrycode
 ORDER BY avg_population DESC;
 
----
-
-
----
-
-# Week 5 Data Technician Workbook
-
-This repository contains resources and notes for **Week 5** of the Data Technician course, focusing on cloud computing, alternative infrastructure, and Azure data services.
-
-## 📄 Included Files
-
-- **5Data_Technician_Workbook_Week_5.docx** – Detailed workbook covering cloud fundamentals, alternative infrastructure solutions, provider comparisons, and Azure labs.  
-- **image/week5PBirelnimage.png** – Highlights of Power BI and Azure lab outputs.  
-
-## ☁️ Cloud Computing Overview
-
-Cloud infrastructure enables businesses to operate globally, supporting transactions across **North America, Asia, Europe, and the Middle East** simultaneously. Key advantages include:
-
-- **Cost Efficiency:** Pay-as-you-go eliminates large upfront hardware costs.  
-- **Scalability:** Resources can dynamically adjust to demand.  
-- **Accessibility:** Data is accessible anywhere with an internet connection.  
-- **Disaster Recovery:** Automated backups protect against data loss.  
-
-### Alternative Infrastructure Options
-
-For scenarios where cloud platforms like AWS, Azure, or GCP are not used:
-
-- **On-Premise Infrastructure:** Full control and security of local servers.  
-- **Edge Computing:** Data processed closer to the source for real-time insights.  
-- **Fog Computing:** Decentralized processing for local networks.  
-- **Local Storage:** NAS, USB, or personal hardware for backups.  
-- **Virtualization:** Simulate hardware locally, similar to cloud services.  
-
-### Cloud Providers & Features
-
-| Feature | AWS | Azure | GCP |
-|---------|-----|-------|-----|
-| **Global Availability** | 31 regions, 99 zones, 400+ edge locations | Deploy in more regions than any other provider | High-performance global network |
-| **On-Demand Resources** | Virtual servers, storage, and databases in minutes | Pay-as-you-go model reduces capex | BigQuery, Vertex AI, Gemini AI integration |
-| **Security & Compliance** | AWS Nitro System, extensive certifications | Azure Confidential Computing | Zero-trust security, Security Command Center |
-| **Scalability & Elasticity** | Auto-scale services based on traffic | Auto-scale services | Auto-scale services globally |
-| **Flexibility** | Supports multiple OS, languages, hybrid options | Manage resources across environments | Compute Engine VMs, distributed cloud options |
-
-## 🟦 Azure Data Fundamentals (DP-900)
-
-### 🎯 Overview
-
-Week 4 introduced cloud computing concepts and Microsoft Azure services applied to real-world data scenarios:
-
-- Cloud computing models (IaaS, PaaS, SaaS)  
-- Public, private, hybrid, community clouds  
-- Data governance & compliance  
-- Azure data services and architecture  
-- Business case solution design  
-
-### ☁️ Cloud Fundamentals
-
-- Scalability, cost efficiency, remote access  
-- Comparison of AWS, Azure, GCP  
-- Serverless computing concepts  
-- Cloud deployment models  
-
-### 🔐 Data Laws & Compliance
-
-Key regulations reviewed:
-
-- GDPR  
-- Data Protection Act 2018  
-- Computer Misuse Act  
-- PCI DSS  
-
-### 📊 Azure Practical Labs
-
-Hands-on exercises included:
-
-- Relational & non-relational data exploration  
-- Data analytics in Azure  
-- Cloud-based querying and processing  
-
-### 🐾 Azure Business Scenario – "Paws & Whiskers"
-
-Developed an Azure solution for a retail business:
-
-- **Azure Blob Storage** – scalable data storage  
-- **Azure SQL Database** – structured transaction data  
-- **Azure Machine Learning** – customer insights  
-- **Azure Data Factory** – automation  
-- **Power BI** – dashboard reporting  
-
-Additional focus areas:
-
-- Data modelling  
-- Security & encryption  
-- Backup & disaster recovery  
-- Scalability planning  
-
-### 🛠 Skills Developed
-
-- Cloud computing fundamentals  
-- Azure service selection  
-- Data architecture design  
-- Compliance awareness  
-- Translating business requirements into technical solutions  
-
-### 🔎 Reflection
-
-Strengthened understanding of scalable, secure, and data-driven business operations in Azure, including solution design aligned with compliance and business needs.  
-
-## 📸 Image Highlights
-
-Visual outputs from Power BI dashboards and Azure lab exercises, demonstrating practical application of cloud data solutions.
-
-- Demonstrates integration of **Azure Blob Storage**, **SQL Database**, and **Power BI**.
-- Supports insights into customer behavior and business trends.
-- Reinforces hands-on experience with cloud-based data processing.
-
-![Week 5 Power BI & Azure Lab Output](image/week5PBirelnimage.png)
-
 -- Compare population of capital cities
 SELECT country.Name AS Country, city.Name AS CapitalCity, city.Population
 FROM country
 JOIN city ON country.Capital = city.ID
 ORDER BY city.Population DESC;
+
+# Week 5 – Data Technician Workbook
+
+This repository contains notes, resources, and practical outputs from **Week 5** of the Data Technician course.  
+The focus is on **cloud computing, alternative infrastructure, and Microsoft Azure data services**, with practical exercises demonstrating cloud-based data solutions.
+
+---
+
+## 📂 Repository Contents
+
+- **5Data_Technician_Workbook_Week_5.docx**  
+  Workbook covering cloud fundamentals, infrastructure alternatives, provider comparisons, and Azure labs.
+
+- **image/week5PBirelnimage.png**  
+  Screenshot highlighting **Power BI dashboard outputs and Azure lab results**.
+
+---
+
+## ☁️ Cloud Computing Overview
+
+Cloud infrastructure enables organizations to run global systems and process transactions across multiple regions simultaneously.
+
+**Key Benefits**
+
+- **Cost Efficiency** – Pay-as-you-go reduces upfront hardware costs  
+- **Scalability** – Resources scale dynamically with demand  
+- **Accessibility** – Systems accessible from anywhere via the internet  
+- **Disaster Recovery** – Automated backups and redundancy protect data  
+
+---
+
+## 🏗 Alternative Infrastructure Options
+
+When cloud platforms are not used, organisations may rely on:
+
+- **On-Premise Infrastructure** – Locally managed servers and hardware  
+- **Edge Computing** – Processing data near the source for faster insights  
+- **Fog Computing** – Decentralised processing within local networks  
+- **Local Storage** – NAS devices, USB storage, or local backups  
+- **Virtualisation** – Simulated environments similar to cloud infrastructure  
+
+---
+
+## ☁️ Cloud Provider Comparison
+
+| Feature | AWS | Azure | GCP |
+|------|------|------|------|
+| Global Infrastructure | 31+ regions, 99 zones | Large global region coverage | High-performance global network |
+| Resource Provisioning | Rapid deployment of compute & storage | Pay-as-you-go services | Integrated analytics & AI tools |
+| Security | AWS Nitro & compliance certifications | Azure Confidential Computing | Zero-trust architecture |
+| Scalability | Automatic scaling | Auto-scale cloud services | Global autoscaling |
+| Flexibility | Multi-OS and hybrid support | Strong Microsoft ecosystem integration | Distributed cloud computing |
+
+---
+
+## 🟦 Azure Data Fundamentals (DP-900)
+
+This week explored how **Microsoft Azure services support real-world data solutions**, including:
+
+- Cloud service models (**IaaS, PaaS, SaaS**)  
+- Cloud deployment types (**public, private, hybrid**)  
+- Data governance and compliance  
+- Azure data services architecture  
+- Business solution design using Azure tools  
+
+---
+
+## ⚖️ Data Protection & Compliance
+
+Key regulations discussed:
+
+- **GDPR**
+- **Data Protection Act 2018**
+- **Computer Misuse Act**
+- **PCI DSS**
+
+These frameworks guide **secure data management and legal compliance in cloud environments**.
+
+---
+
+## 🧪 Azure Practical Labs
+
+Hands-on activities included:
+
+- Exploring **relational and non-relational data**
+- Querying cloud data services
+- Using **Azure analytics tools**
+- Visualising insights with **Power BI**
+
+---
+
+## 🐾 Business Case Scenario – *Paws & Whiskers*
+
+Designed a cloud data solution for a retail company using Azure services:
+
+- **Azure Blob Storage** – scalable storage for large datasets  
+- **Azure SQL Database** – structured transactional data  
+- **Azure Machine Learning** – predictive analytics  
+- **Azure Data Factory** – automated data pipelines  
+- **Power BI** – business intelligence dashboards  
+
+Additional considerations:
+
+- Data modelling
+- Security and encryption
+- Backup and disaster recovery
+- Scalability planning
+
+---
+
+## 🛠 Skills Developed
+
+- Cloud computing fundamentals  
+- Azure data service selection  
+- Data architecture design  
+- Data governance and compliance awareness  
+- Translating business requirements into technical cloud solutions  
+
+---
+
+## 📊 Practical Output
+
+Power BI dashboard and Azure lab results demonstrating:
+
+- Integration of **Azure Blob Storage**, **SQL Database**, and **Power BI**
+- Data-driven insights into business performance
+- Practical cloud-based data processing
+
+![Week 5 Power BI & Azure Lab Output](image/week5PBirelnimage.png)
+
+---
+
+## 🔎 Reflection
+
+This week strengthened understanding of **scalable cloud data architectures**, **Azure services**, and **secure data management**, reinforcing how cloud platforms support modern **data-driven business operations**.
+
+---
 
