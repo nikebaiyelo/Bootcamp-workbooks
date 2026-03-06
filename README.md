@@ -351,52 +351,6 @@ Throughout these projects, I developed a robust workflow for handling data lifec
 ---
 
 ![Week 2 Sales Chart](Week2_sales%20chart.png)
-# 🗄 Week 3 – Database Concepts & SQL
-
-## 🎯 Overview
-Week 3 focused on understanding **database structure and relational data analysis using SQL**.  
-The work combined **database theory, relational modelling, and practical SQL querying** to analyse structured datasets.
-
-Key areas covered:
-
-- Primary & Foreign Keys
-- Database relationships
-- Relational vs Non-Relational databases
-- SQL JOIN operations
-- Practical SQL querying using a **world database**
-
----
-
-# 🧠 Database Fundamentals
-
-This section explored the core concepts that underpin relational databases.
-
-### Key Concepts
-
-**Primary Keys**
-- Uniquely identify each record within a table
-- Prevent duplicate entries
-- Provide the basis for table relationships
-
-**Foreign Keys**
-- Link related tables together
-- Reference a primary key from another table
-- Enable relational database structures
-
-### Relationship Types Studied
-
-- **One-to-One** – one record relates to exactly one record
-- **One-to-Many** – one record relates to multiple records
-- **Many-to-Many** – records in both tables relate to multiple records
-
-These concepts ensure data remains **structured, organised, and reliable** across database systems.
-
----
-
-# 🗂 Relational Database Model
-
-The following Entity Relationship Diagram illustrates a simple **sales database structure**.
-
 ---
 # Week 5 – Data Technician Workbook
 
@@ -532,6 +486,51 @@ Power BI dashboard and Azure lab results demonstrating:
 ## 🔎 Reflection
 
 This week strengthened understanding of **scalable cloud data architectures**, **Azure services**, and **secure data management**, reinforcing how cloud platforms support modern **data-driven business operations**.
+# 🗄 Week 3 – Database Concepts & SQL
+
+## 🎯 Overview
+Week 3 focused on understanding **database structure and relational data analysis using SQL**.  
+The work combined **database theory, relational modelling, and practical SQL querying** to analyse structured datasets.
+
+Key areas covered:
+
+- Primary & Foreign Keys
+- Database relationships
+- Relational vs Non-Relational databases
+- SQL JOIN operations
+- Practical SQL querying using a **world database**
+
+---
+
+# 🧠 Database Fundamentals
+
+This section explored the core concepts that underpin relational databases.
+
+### Key Concepts
+
+**Primary Keys**
+- Uniquely identify each record within a table
+- Prevent duplicate entries
+- Provide the basis for table relationships
+
+**Foreign Keys**
+- Link related tables together
+- Reference a primary key from another table
+- Enable relational database structures
+
+### Relationship Types Studied
+
+- **One-to-One** – one record relates to exactly one record
+- **One-to-Many** – one record relates to multiple records
+- **Many-to-Many** – records in both tables relate to multiple records
+
+These concepts ensure data remains **structured, organised, and reliable** across database systems.
+
+---
+
+# 🗂 Relational Database Model
+
+The following Entity Relationship Diagram illustrates a simple **sales database structure**.
 
 ---
 ## 📊 Week 3 Highlight: Database Structure ERD
