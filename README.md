@@ -720,3 +720,192 @@ Power BI dashboard and Azure lab results demonstrating:
 ## 🔎 Reflection
 
 This week strengthened understanding of **scalable cloud data architectures**, **Azure services**, and **secure data management**, reinforcing how cloud platforms support modern **data-driven business operations**.
+
+# 📊 Data Technician Workbook – Week 6
+
+## 📁 File
+**6Data_Technician_Workbook_Week_6.docx**
+
+---
+
+## 📚 Overview
+This workbook contains practical Python exercises completed during **Week 6 of the Data Technician course**.  
+The activities focus on **data exploration, manipulation, aggregation, and visualisation** using Python libraries such as **Pandas** and **Matplotlib**.
+
+The exercises provide hands-on experience working with datasets and analysing data programmatically.
+
+---
+
+## 📑 Table of Contents
+- [Exercise 1: Loading and Exploring the Data](#exercise-1-loading-and-exploring-the-data)
+- [Exercise 2: Indexing and Slicing](#exercise-2-indexing-and-slicing)
+- [Exercise 3: Data Manipulation](#exercise-3-data-manipulation)
+- [Exercise 4: Aggregation and Grouping](#exercise-4-aggregation-and-grouping)
+- [Exercise 5: Advanced Operations](#exercise-5-advanced-operations)
+- [Exercise 6: Exporting Data](#exercise-6-exporting-data)
+- [Exercise 7: Data Visualisation (Optional)](#exercise-7-data-visualisation-optional)
+- [Technologies Used](#technologies-used)
+- [Learning Outcomes](#learning-outcomes)
+
+---
+
+# Exercise 1: Loading and Exploring the Data
+
+This exercise focuses on importing and exploring datasets using Python.
+
+Tasks include:
+- Loading data into a DataFrame
+- Inspecting dataset structure
+- Viewing the first rows
+- Checking column names and data types
+
+Example:
+
+```python
+import pandas as pd
+
+data = pd.read_csv("data.csv")
+
+print(data.head())
+print(data.info())
+```
+
+---
+
+# Exercise 2: Indexing and Slicing
+
+Learn how to select specific rows and columns from datasets.
+
+Tasks include:
+- Selecting columns
+- Selecting rows
+- Using `.loc` and `.iloc`
+
+Example:
+
+```python
+# Select a column
+data["population"]
+
+# Select rows by position
+data.iloc[0:5]
+
+# Select rows using labels
+data.loc[0:5, ["city", "population"]]
+```
+
+---
+
+# Exercise 3: Data Manipulation
+
+This exercise introduces methods to modify and transform data.
+
+Tasks include:
+- Creating new columns
+- Updating values
+- Cleaning data
+
+Example:
+
+```python
+data["population_millions"] = data["population"] / 1000000
+```
+
+---
+
+# Exercise 4: Aggregation and Grouping
+
+Aggregation allows summarising data using statistical functions.
+
+Tasks include:
+- Grouping data
+- Calculating averages
+- Counting records
+
+Example:
+
+```python
+grouped = data.groupby("country")["population"].mean()
+print(grouped)
+```
+
+---
+
+# Exercise 5: Advanced Operations
+
+This exercise explores more advanced operations when working with datasets.
+
+Tasks include:
+- Applying multiple conditions
+- Combining operations
+- Performing complex transformations
+
+Example:
+
+```python
+large_cities = data[data["population"] > 1000000]
+```
+
+---
+
+# Exercise 6: Exporting Data
+
+After analysing data, results can be exported for further use.
+
+Tasks include:
+- Saving processed data
+- Exporting to CSV files
+
+Example:
+
+```python
+data.to_csv("processed_data.csv", index=False)
+```
+
+---
+
+# Exercise 7: Data Visualisation (Optional)
+
+If the exercises are completed early, results can be visualised using **Matplotlib**.
+
+Example:
+
+```python
+import matplotlib.pyplot as plt
+
+data.groupby("country")["population"].sum().plot(kind="bar")
+
+plt.title("Population by Country")
+plt.xlabel("Country")
+plt.ylabel("Population")
+
+plt.show()
+```
+
+---
+
+# 🛠 Technologies Used
+
+- Python  
+- Pandas  
+- Matplotlib  
+- Jupyter Notebook / Python environment  
+
+---
+
+# 🎯 Learning Outcomes
+
+After completing this workbook, learners should be able to:
+
+- Load and explore datasets using Python
+- Perform indexing and slicing operations
+- Manipulate and transform data
+- Apply aggregation and grouping techniques
+- Export processed datasets
+- Create simple visualisations using Matplotlib
+
+---
+
+# 📌 Notes
+
+This workbook forms part of the **Data Technician training programme**, helping develop practical skills in **data analysis and visualisation using Python**.
