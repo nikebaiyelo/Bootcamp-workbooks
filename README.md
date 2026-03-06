@@ -862,22 +862,11 @@ data.to_csv("processed_data.csv", index=False)
 
 ---
 
-# Exercise 7: Data Visualisation (Optional)
+## 📊 Heatmap Visualisation
 
-If the exercises are completed, results can be visualised using **Matplotlib**.
+The following heatmap was generated using Python and Matplotlib to visualise patterns in the dataset.
 
-Example:
-
-```python
-import matplotlib.pyplot as plt
-
-data.groupby("country")["population"].sum().plot(kind="bar")
-
-plt.title("Population by Country")
-plt.xlabel("Country")
-plt.ylabel("Population")
-
-plt.show()
+![Week 6 Heatmap](image/Week6heatmap.png)
 ```
 
 ---
